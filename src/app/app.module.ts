@@ -13,15 +13,12 @@ import { NavProyectComponent } from './components/nav-proyect/nav-proyect.compon
 import { NavServicesComponent } from './components/nav-services/nav-services.component';
 import { NavShopComponent } from './components/nav-shop/nav-shop.component';
 import { BannerComponent } from './inicio/banner/banner.component';
-import { BlogComponent } from './inicio/blog/blog.component';
 import { BrandComponent } from './inicio/brand/brand.component';
 import { CounterComponent } from './inicio/counter/counter.component';
 import { ExploreComponent } from './inicio/explore/explore.component';
 import { HomeComponent } from './inicio/home/home.component';
 import { NosotrosComponent } from './inicio/nosotros/nosotros.component';
 import { ServicesComponent } from './inicio/services/services.component';
-import { TeamComponent } from './inicio/team/team.component';
-import { TestimonialsComponent } from './inicio/testimonials/testimonials.component';
 import { MainNavComponent } from './common/main-nav/main-nav.component';
 
 @NgModule({
@@ -37,15 +34,12 @@ import { MainNavComponent } from './common/main-nav/main-nav.component';
     NavServicesComponent,
     NavShopComponent,
     BannerComponent,
-    BlogComponent,
     BrandComponent,
     CounterComponent,
     ExploreComponent,
     HomeComponent,
     NosotrosComponent,
     ServicesComponent,
-    TeamComponent,
-    TestimonialsComponent,
     MainNavComponent
 
   ],
