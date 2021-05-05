@@ -3,19 +3,19 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavAboutUsComponent } from './components/nav-about-us/nav-about-us.component';
 import { NavBlogComponent } from './components/nav-blog/nav-blog.component';
 import { HomeComponent } from './inicio/home/home.component';
-import { CardsComponent } from './inicio/cards/cards.component';
 import { NavContactComponent } from './components/nav-contact/nav-contact.component';
 import { NavPagesComponent } from './components/nav-pages/nav-pages.component';
 import { NavProyectComponent } from './components/nav-proyect/nav-proyect.component';
 import { NavServicesComponent } from './components/nav-services/nav-services.component';
 import { NavShopComponent } from './components/nav-shop/nav-shop.component';
-import { NosotrosComponent } from './inicio/nosotros/nosotros.component';
+import { CardsComponent } from './inicio/cards/cards.component';
+import { ProjectsComponent } from './inicio/projects/projects.component';
 
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'',component:CardsComponent},
-  {path:'',component:NosotrosComponent},
+  {path:'',component:ProjectsComponent},
   {path:'nav-about-us',component:NavAboutUsComponent},
   {path:'nav-blog',component:NavBlogComponent},
   {path:'nav-contact',component:NavContactComponent},

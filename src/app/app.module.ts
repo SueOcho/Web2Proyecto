@@ -20,6 +20,8 @@ import { HomeComponent } from './inicio/home/home.component';
 import { NosotrosComponent } from './inicio/nosotros/nosotros.component';
 import { ServicesComponent } from './inicio/services/services.component';
 import { MainNavComponent } from './common/main-nav/main-nav.component';
+import { CardsComponent } from './inicio/cards/cards.component';
+import { ProjectsComponent } from './inicio/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -40,8 +42,10 @@ import { MainNavComponent } from './common/main-nav/main-nav.component';
     HomeComponent,
     NosotrosComponent,
     ServicesComponent,
-    MainNavComponent
-
+    MainNavComponent,
+    CardsComponent,
+    ProjectsComponent,
+    NavProyectComponent
   ],
   imports: [
     BrowserModule,

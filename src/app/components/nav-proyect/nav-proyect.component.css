@@ -1,0 +1,77 @@
+#breadcrumb-area{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.breadcrumb-height{
+    min-height: 460px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.breadcrumb-sub-title{
+    font-family: "Rajdhani", sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    display: block;
+    position: relative;
+    padding-left: 100px;
+}
+
+.breadcrumb-title {
+    padding-top: 15px;
+    font-size: 88px;
+    line-height: 85px;
+}
+
+.mb-1{
+    margin-bottom: 0.3125rem !important;
+}
+
+.breadcrumb-desc{
+    max-width: 380px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.py-140{
+    padding: 140px 0;
+}
+
+.poject-item{
+    position: relative;
+    overflow: hidden;
+}
+
+.project-img{
+    display: block;
+}
+
+.pb-6{
+    padding-bottom: 1.875rem !important;
+}
+
+.btn-custom {
+    border-radius: 0;
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    font-size: 20px;
+    position: relative;
+}
+
+.btn-primary {
+    background-color: #ff5e13 !important;
+    border-color: #ff5e13 !important;
+}
+

@@ -1,0 +1,110 @@
+.project-inner{
+    background-position: right;
+}
+
+.text-end{
+    text-align: right !important;
+}
+
+.btn-project{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    padding: 50px;
+    z-index: 1;
+    background-color: #ff5e13;
+}
+
+.project-with-title{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.project-with-title .project-slider {
+    width: calc(100% - 285px);
+}
+
+.swiper-container-pointer-events {
+    touch-action: pan-y;
+}
+
+
+.swiper-container {
+    margin-left: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+figure{
+    padding: 0 !important;
+}
+
+.project-with-title .section-title-area {
+    width: 285px;
+}
+
+.section-title-area {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.section-title-wrap.style-02 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.section-title-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section-title{
+    position: relative;
+}
+
+.section-title-wrap.style-02 .section-title {
+    -webkit-transform: rotate(
+-90deg
+);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(
+-90deg
+);
+}

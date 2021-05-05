@@ -11,7 +11,7 @@ h2{
     color: #00225a;
 }
 
-span{
+#about{
     text-transform: uppercase;
     padding-bottom: 5px;
     font-weight: 700;
@@ -78,13 +78,14 @@ ul{
     margin: 0;
     padding: 0;
     list-style: none;
+    color: #00225a !important;
 }
 
 .list-icon{
     padding-right: 15px;
 }
 
-.list-icon i{
+.list-icon svg{
     color: #ff5e13;
     vertical-align: middle;
 }
