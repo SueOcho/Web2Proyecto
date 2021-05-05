@@ -1,0 +1,40 @@
+.main-nav>ul>li{
+    display: inline-block;
+    padding-right: 55px;
+}
+.main-nav>ul>li>a{
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-nav>ul>li.separator{
+    padding-right: 35px;
+}
+
+ul{
+    margin: 0;
+    list-style-type: none;
+}
+
+.header-logo-wrap{
+background-color: #ffffff;
+height: 100%;
+position: absolute;
+left: -10px;
+-webkit-transform: skew(350deg);
+}
+    
+.header-fixed-logo{
+width: calc(100% - 60px);
+margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
